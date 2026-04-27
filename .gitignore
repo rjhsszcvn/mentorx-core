@@ -1,0 +1,58 @@
+# ===== Secrets — NEVER commit these =====
+.env
+.env.*
+*.key
+secrets.json
+credentials.json
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===== Virtual environments =====
+venv/
+env/
+ENV/
+.venv
+
+# ===== IDE / editors =====
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ===== MentorX project-specific =====
+# Vector store data (will be regenerated)
+chroma_db/
+*.sqlite3
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
+logs/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/

@@ -1,1 +1,1 @@
-# mentorx-core
+Autonomous AI mentor agent system. Built for Lablab AI Agent Olympics 2026.
